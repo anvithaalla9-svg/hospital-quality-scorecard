@@ -160,7 +160,7 @@ What I learned from them:
 
 ## 7. Tools and files
 
-- **SQL (BigQuery):** cleaning, joining and analysis queries in `project_queries.sql`
+- **SQL (BigQuery):** cleaning, joining and analysis queries in `- **SQL (BigQuery):** the 9 analysis queries (Q1 to Q9) in the sql_queries folder.sql`
 - **Python:** multiple linear regression with controls for ownership, hospital type and state, a logistic regression for "rated Worse", and a random forest with permutation importance, in `hospital_regression.ipynb`
-- **Power BI:** the dashboard in `powerbi/hospital_quality_dashboard.pbix`, with six DAX measures (total hospitals, average PSI_90, hospitals rated Worse, percent Worse, hospitals with 4 to 5 stars, and average PSI_90 for those hospitals). Open it with Power BI Desktop, which is free and runs on Windows.
+- **Power BI:** the dashboard in `powerbi/hospital_quality_dashboard.pbix with hospital_quality_dashboard.pbixhospital_quality_dashboard.pbix`, with six DAX measures (total hospitals, average PSI_90, hospitals rated Worse, percent Worse, hospitals with 4 to 5 stars, and average PSI_90 for those hospitals). Open it with Power BI Desktop, which is free and runs on Windows.
 - **Data:** the final joined table is in `hospital_final.csv`.
