@@ -10,7 +10,7 @@ Patients often choose hospitals by their star ratings. But the star rating comes
 
 ## 2. The data
 
-The data is public CMS (Centers for Medicare and Medicaid Services) hospital data, downloaded from Kaggle (add the link to the exact dataset page here). I used four tables: general hospital information, patient survey ratings, infections, and complications and deaths. I loaded them into BigQuery, cleaned them, and joined them on facility ID. The general information table had 5,419 hospitals. The final table has 4,790, because 629 hospitals had no patient survey or safety data and could not be compared.
+The data is public CMS (Centers for Medicare and Medicaid Services) hospital data, downloaded as CSV files from the CMS Provider Data Catalog (https://data.cms.gov/provider-data/topics/hospitals). I used four tables: general hospital information, patient survey ratings, infections, and complications and deaths. I loaded them into BigQuery, cleaned them, and joined them on facility ID. The general information table had 5,419 hospitals. The final table has 4,790, because 629 hospitals had no patient survey or safety data and could not be compared.
 
 | Table | Rows | What it holds |
 |---|---|---|
